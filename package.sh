@@ -1,1 +1,1 @@
-jar -cf java-example.war WEB-INF
+jar -cf java-example.war WEB-INF *.htm

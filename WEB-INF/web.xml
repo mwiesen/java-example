@@ -8,4 +8,25 @@
     <servlet-name>HelloWorld</servlet-name>
     <url-pattern>/HelloWorld</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HelloFormGet</servlet-name>
+    <servlet-class>HelloFormGet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloFormGet</servlet-name>
+    <url-pattern>/HelloFormGet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HelloFormPost</servlet-name>
+    <servlet-class>HelloFormPost</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloFormPost</servlet-name>
+    <url-pattern>/HelloFormPost</url-pattern>
+  </servlet-mapping>
+
 </web-app>
