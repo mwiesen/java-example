@@ -15,7 +15,7 @@ public class HelloFormPost extends HttpServlet {
       response.setContentType("text/html");
 
       PrintWriter out = response.getWriter();
-	  String title = "Using GET Method to Read Form Data";
+	  String title = "Using POST Method to Read Form Data";
       String docType =
       "<!doctype html public \"-//w3c//dtd html 4.0 " +
       "transitional//en\">\n";
@@ -30,7 +30,9 @@ public class HelloFormPost extends HttpServlet {
                 "  <li><b>Last Name</b>: "
                 + request.getParameter("last_name") + "\n" +
                 "</ul>\n" +
-                "</body></html>");
+                "<img src='images/snake.png'></img>\n" +
+                "</body>\n" +
+                "</html>");
   }
   // Method to handle POST method request.
   public void doPost(HttpServletRequest request,
